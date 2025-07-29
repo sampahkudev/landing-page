@@ -24,6 +24,12 @@
     }
 }
 
+.img-3x4 {
+  width: 100%;             /* atau fixed seperti width: 150px; */
+  aspect-ratio: 3 / 4;     /* menjaga rasio 3:4 */
+  object-fit: cover;       /* agar gambar tidak terdistorsi */
+  border-radius: 8px;      /* opsional, untuk sudut bulat */
+}
 
 
 
