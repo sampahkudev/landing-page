@@ -40,7 +40,6 @@ window.addEventListener("DOMContentLoaded", () => {
     .then(data => {
       if (data.token) {
         localStorage.setItem('iss_token', data.token);
-        localStorage.setItem('userEmail', email);
         window.location.href = 'https://sampahkudev.github.io/dashboard';
       } else {
         alert('Login gagal: ' + (data.message || 'Token tidak ditemukan'));
